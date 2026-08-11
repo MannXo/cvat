@@ -149,6 +149,8 @@ INSTALLED_APPS = [
     "cvat.apps.access_tokens",
 ]
 
+AUTH_USER_MODEL = "iam.User"
+
 SITE_ID = 1
 
 
